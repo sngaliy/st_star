@@ -407,6 +407,75 @@
 				<Item Name="ex_createNewChannelsTDMS.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_TDMS/ex_createNewChannelsTDMS.vi"/>
 				<Item Name="TDMSAddBlankElem1d.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMSAddBlankElem1d.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="MD5Checksum File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum File.vi"/>
+				<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
+				<Item Name="MD5Checksum core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum core.vi"/>
+				<Item Name="MD5Checksum pad.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
+				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
+				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
+				<Item Name="NI_report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_report.lvclass"/>
+				<Item Name="NI_ReportGenerationCore.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_ReportGenerationCore.lvlib"/>
+				<Item Name="NI_HTML.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/HTML/NI_HTML.lvclass"/>
+				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
+				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
+				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
+				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
+				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
+				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
+				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
+				<Item Name="Registry RtKey.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry RtKey.ctl"/>
+				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
+				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
+				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
+				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
+				<Item Name="Registry SAM.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry SAM.ctl"/>
+				<Item Name="Registry refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry refnum.ctl"/>
+				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
+				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
+				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
+				<Item Name="Registry Handle Master.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Handle Master.vi"/>
+				<Item Name="Read Registry Value Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple.vi"/>
+				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
+				<Item Name="Read Registry Value.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value.vi"/>
+				<Item Name="Read Registry Value STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value STR.vi"/>
+				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
+				<Item Name="Registry Simplify Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Simplify Data Type.vi"/>
+				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
+				<Item Name="Create ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create ActiveX Event Queue.vi"/>
+				<Item Name="Wait types.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait types.ctl"/>
+				<Item Name="Create Error Clust.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create Error Clust.vi"/>
+				<Item Name="Wait On ActiveX Event.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait On ActiveX Event.vi"/>
+				<Item Name="EventData.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/EventData.ctl"/>
+				<Item Name="OccFireType.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/OccFireType.ctl"/>
+				<Item Name="Destroy ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Destroy ActiveX Event Queue.vi"/>
+				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
+				<Item Name="NI_Standard Report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Standard Report/NI_Standard Report.lvclass"/>
+				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
+				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
+				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
+				<Item Name="Write BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP File.vi"/>
+				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
+				<Item Name="Write BMP Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data.vi"/>
+				<Item Name="Write BMP Data To Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data To Buffer.vi"/>
+				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
+				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
+				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Built App File Layout.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Built App File Layout.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
+				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
+				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
@@ -414,6 +483,73 @@
 			</Item>
 			<Item Name="Menu.rtm" Type="Document" URL="../Menu.rtm"/>
 			<Item Name="st_str Set Visable on Multiple Controls.vi" Type="VI" URL="../subVIs/st_str Set Visable on Multiple Controls.vi"/>
+			<Item Name="st_str Settings Dialog(VIForIzm).vi" Type="VI" URL="../subVIs/st_str Settings Dialog(VIForIzm).vi"/>
+			<Item Name="st_str gen parametr.ctl" Type="VI" URL="../controls/st_str gen parametr.ctl"/>
+			<Item Name="st_voltmetr.vi" Type="VI" URL="../../st_voltmetr-master/st_voltmetr.vi"/>
+			<Item Name="MenuVolt.rtm" Type="Document" URL="../../st_voltmetr-master/MenuVolt.rtm"/>
+			<Item Name="A5000_param.ctl" Type="VI" URL="../../st_voltmetr-master/controls/A5000_param.ctl"/>
+			<Item Name="st_str Global.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/st_str Global.vi"/>
+			<Item Name="OscCon (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/OscCon (SubVI).vi"/>
+			<Item Name="ps5000a.dll" Type="Document" URL="ps5000a.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Open.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Open.vi"/>
+			<Item Name="PicoScope5000aPowerSource.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/PicoScope5000a.llb/PicoScope5000aPowerSource.vi"/>
+			<Item Name="PicoScope5000aUnitInfo.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/PicoScope5000a.llb/PicoScope5000aUnitInfo.vi"/>
+			<Item Name="Status.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Status.vi"/>
+			<Item Name="OscGen (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/OscGen (SubVI).vi"/>
+			<Item Name="PicoScope5000aAWG.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/PicoScope5000a.llb/PicoScope5000aAWG.vi"/>
+			<Item Name="PicoErrorHandler.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/PicoScope.llb/PicoErrorHandler.vi"/>
+			<Item Name="OscCapture (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/OscCapture (SubVI).vi"/>
+			<Item Name="Settings.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Settings.vi"/>
+			<Item Name="PicoScopeVoltsToAdc.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/PicoScope.llb/PicoScopeVoltsToAdc.vi"/>
+			<Item Name="PicoScope5000aGetTimebase2.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/PicoScope5000a.llb/PicoScope5000aGetTimebase2.vi"/>
+			<Item Name="PicoStatus.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/PicoScope.llb/PicoStatus.vi"/>
+			<Item Name="GetBlock.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/GetBlock.vi"/>
+			<Item Name="OscAutoDiap (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/OscAutoDiap (SubVI).vi"/>
+			<Item Name="OscDataToWfm (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/OscDataToWfm (SubVI).vi"/>
+			<Item Name="PicoScopeAdcToVolts.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/PicoScope.llb/PicoScopeAdcToVolts.vi"/>
+			<Item Name="DotPoz (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/DotPoz (SubVI).vi"/>
+			<Item Name="DiapStr (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/DiapStr (SubVI).vi"/>
+			<Item Name="Meas (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Meas (SubVI).vi"/>
+			<Item Name="DblToStr.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/DblToStr.vi"/>
+			<Item Name="GUI_visable_ctr (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/GUI_visable_ctr (SubVI).vi"/>
+			<Item Name="About program (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/About program (SubVI).vi"/>
+			<Item Name="GetFileVersion.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/GetFileVersion.vi"/>
+			<Item Name="GetFileVersion (ActiveX).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/GetFileVersion (ActiveX).vi"/>
+			<Item Name="Title (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Title (SubVI).vi"/>
+			<Item Name="GetRazdelitel(SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/GetRazdelitel(SubVI).vi"/>
+			<Item Name="GUI_ENABLE_ctr (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/GUI_ENABLE_ctr (SubVI).vi"/>
+			<Item Name="SaveVolt (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/SaveVolt (SubVI).vi"/>
+			<Item Name="1poputkapechat (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/1poputkapechat (SubVI).vi"/>
+			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Dialog_about_program_v (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Dialog_about_program_v (SubVI).vi"/>
+			<Item Name="DisableEnableControlVolt (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/DisableEnableControlVolt (SubVI).vi"/>
+			<Item Name="DeleteFunction (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/DeleteFunction (SubVI).vi"/>
+			<Item Name="Tbl_Delete (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Tbl_Delete (SubVI).vi"/>
+			<Item Name="InteractWithScrollBar (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/InteractWithScrollBar (SubVI).vi"/>
+			<Item Name="AddFunction (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/AddFunction (SubVI).vi"/>
+			<Item Name="Zamena (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Zamena (SubVI).vi"/>
+			<Item Name="IconNumDotPoz(SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/IconNumDotPoz(SubVI).vi"/>
+			<Item Name="Tbl_Add (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Tbl_Add (SubVI).vi"/>
+			<Item Name="AddNumRow (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/SaveEx/AddNumRow (SubVI).vi"/>
+			<Item Name="RemoveFunction (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/RemoveFunction (SubVI).vi"/>
+			<Item Name="Tbl_Remove (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Tbl_Remove (SubVI).vi"/>
+			<Item Name="PicoScope5000aStop.vi" Type="VI" URL="../../../newPack/picosdk-ni-labview-examples-master/ps5000a/PicoScope5000aLib/PicoScope5000aStop.vi"/>
+			<Item Name="PicoStatus2.vi" Type="VI" URL="../../../newPack/picosdk-ni-labview-examples-master/shared/PicoStatus2.vi"/>
+			<Item Name="PicoErrorHandler2.vi" Type="VI" URL="../../../newPack/picosdk-ni-labview-examples-master/shared/PicoErrorHandler2.vi"/>
+			<Item Name="PicoErrorString2.vi" Type="VI" URL="../../../newPack/picosdk-ni-labview-examples-master/shared/PicoErrorString2.vi"/>
+			<Item Name="PICO_STATUS codes.vi" Type="VI" URL="../../../newPack/picosdk-ni-labview-examples-master/shared/PICO_STATUS codes.vi"/>
+			<Item Name="OpenAndRunVi (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/OpenAndRunVi (SubVI).vi"/>
+			<Item Name="st_str Acquire Data from Hardware(forSubVi).vi" Type="VI" URL="../subVIs/st_str Acquire Data from Hardware(forSubVi).vi"/>
+			<Item Name="st_str RealiseArrayData(ViForIzm).vi" Type="VI" URL="../subVIs/st_str RealiseArrayData(ViForIzm).vi"/>
+			<Item Name="CloseVi (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/CloseVi (SubVI).vi"/>
+			<Item Name="Connecting_Indicator(SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Connecting_Indicator(SubVI).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Finite Measurement Application" Type="EXE">
@@ -437,7 +573,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Finite Measurement Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1BFB8654-0ED6-46DC-9DA8-CD744B16C1B9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D87FF8EC-8353-4B89-B443-D7FDA706280C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/st_str Main.vi</Property>
