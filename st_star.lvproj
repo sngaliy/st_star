@@ -482,74 +482,70 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Menu.rtm" Type="Document" URL="../Menu.rtm"/>
-			<Item Name="st_str Set Visable on Multiple Controls.vi" Type="VI" URL="../subVIs/st_str Set Visable on Multiple Controls.vi"/>
 			<Item Name="st_str Settings Dialog(VIForIzm).vi" Type="VI" URL="../subVIs/st_str Settings Dialog(VIForIzm).vi"/>
 			<Item Name="st_str gen parametr.ctl" Type="VI" URL="../controls/st_str gen parametr.ctl"/>
-			<Item Name="st_voltmetr.vi" Type="VI" URL="../../st_voltmetr-master/st_voltmetr.vi"/>
-			<Item Name="MenuVolt.rtm" Type="Document" URL="../../st_voltmetr-master/MenuVolt.rtm"/>
-			<Item Name="A5000_param.ctl" Type="VI" URL="../../st_voltmetr-master/controls/A5000_param.ctl"/>
-			<Item Name="st_str Global.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/st_str Global.vi"/>
-			<Item Name="OscCon (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/OscCon (SubVI).vi"/>
 			<Item Name="ps5000a.dll" Type="Document" URL="ps5000a.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Open.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Open.vi"/>
-			<Item Name="PicoScope5000aPowerSource.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/PicoScope5000a.llb/PicoScope5000aPowerSource.vi"/>
-			<Item Name="PicoScope5000aUnitInfo.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/PicoScope5000a.llb/PicoScope5000aUnitInfo.vi"/>
-			<Item Name="Status.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Status.vi"/>
-			<Item Name="OscGen (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/OscGen (SubVI).vi"/>
-			<Item Name="PicoScope5000aAWG.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/PicoScope5000a.llb/PicoScope5000aAWG.vi"/>
-			<Item Name="PicoErrorHandler.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/PicoScope.llb/PicoErrorHandler.vi"/>
-			<Item Name="OscCapture (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/OscCapture (SubVI).vi"/>
-			<Item Name="Settings.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Settings.vi"/>
-			<Item Name="PicoScopeVoltsToAdc.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/PicoScope.llb/PicoScopeVoltsToAdc.vi"/>
-			<Item Name="PicoScope5000aGetTimebase2.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/PicoScope5000a.llb/PicoScope5000aGetTimebase2.vi"/>
-			<Item Name="PicoStatus.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/PicoScope.llb/PicoStatus.vi"/>
-			<Item Name="GetBlock.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/GetBlock.vi"/>
-			<Item Name="OscAutoDiap (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/OscAutoDiap (SubVI).vi"/>
-			<Item Name="OscDataToWfm (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/OscDataToWfm (SubVI).vi"/>
-			<Item Name="PicoScopeAdcToVolts.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/PicoScope.llb/PicoScopeAdcToVolts.vi"/>
-			<Item Name="DotPoz (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/DotPoz (SubVI).vi"/>
-			<Item Name="DiapStr (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/DiapStr (SubVI).vi"/>
-			<Item Name="Meas (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Meas (SubVI).vi"/>
-			<Item Name="DblToStr.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/DblToStr.vi"/>
-			<Item Name="GUI_visable_ctr (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/GUI_visable_ctr (SubVI).vi"/>
-			<Item Name="About program (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/About program (SubVI).vi"/>
-			<Item Name="GetFileVersion.vi" Type="VI" URL="../../st_voltmetr-master/subVIs/GetFileVersion.vi"/>
-			<Item Name="GetFileVersion (ActiveX).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/GetFileVersion (ActiveX).vi"/>
-			<Item Name="Title (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Title (SubVI).vi"/>
-			<Item Name="GetRazdelitel(SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/GetRazdelitel(SubVI).vi"/>
-			<Item Name="GUI_ENABLE_ctr (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/GUI_ENABLE_ctr (SubVI).vi"/>
-			<Item Name="SaveVolt (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/SaveVolt (SubVI).vi"/>
-			<Item Name="1poputkapechat (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/1poputkapechat (SubVI).vi"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Dialog_about_program_v (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Dialog_about_program_v (SubVI).vi"/>
-			<Item Name="DisableEnableControlVolt (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/DisableEnableControlVolt (SubVI).vi"/>
-			<Item Name="DeleteFunction (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/DeleteFunction (SubVI).vi"/>
-			<Item Name="Tbl_Delete (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Tbl_Delete (SubVI).vi"/>
-			<Item Name="InteractWithScrollBar (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/InteractWithScrollBar (SubVI).vi"/>
-			<Item Name="AddFunction (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/AddFunction (SubVI).vi"/>
-			<Item Name="Zamena (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Zamena (SubVI).vi"/>
-			<Item Name="IconNumDotPoz(SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/IconNumDotPoz(SubVI).vi"/>
-			<Item Name="Tbl_Add (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Tbl_Add (SubVI).vi"/>
-			<Item Name="AddNumRow (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/SaveEx/AddNumRow (SubVI).vi"/>
-			<Item Name="RemoveFunction (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/RemoveFunction (SubVI).vi"/>
-			<Item Name="Tbl_Remove (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Tbl_Remove (SubVI).vi"/>
-			<Item Name="PicoScope5000aStop.vi" Type="VI" URL="../../../newPack/picosdk-ni-labview-examples-master/ps5000a/PicoScope5000aLib/PicoScope5000aStop.vi"/>
-			<Item Name="PicoStatus2.vi" Type="VI" URL="../../../newPack/picosdk-ni-labview-examples-master/shared/PicoStatus2.vi"/>
-			<Item Name="PicoErrorHandler2.vi" Type="VI" URL="../../../newPack/picosdk-ni-labview-examples-master/shared/PicoErrorHandler2.vi"/>
-			<Item Name="PicoErrorString2.vi" Type="VI" URL="../../../newPack/picosdk-ni-labview-examples-master/shared/PicoErrorString2.vi"/>
-			<Item Name="PICO_STATUS codes.vi" Type="VI" URL="../../../newPack/picosdk-ni-labview-examples-master/shared/PICO_STATUS codes.vi"/>
-			<Item Name="OpenAndRunVi (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/OpenAndRunVi (SubVI).vi"/>
 			<Item Name="st_str Acquire Data from Hardware(forSubVi).vi" Type="VI" URL="../subVIs/st_str Acquire Data from Hardware(forSubVi).vi"/>
 			<Item Name="st_str RealiseArrayData(ViForIzm).vi" Type="VI" URL="../subVIs/st_str RealiseArrayData(ViForIzm).vi"/>
-			<Item Name="CloseVi (SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/CloseVi (SubVI).vi"/>
-			<Item Name="Connecting_Indicator(SubVI).vi" Type="VI" URL="../../st_voltmetr-master/subVIs/Connecting_Indicator(SubVI).vi"/>
+			<Item Name="st_str Global.vi" Type="VI" URL="../../st_voltmetr/subVIs/st_str Global.vi"/>
+			<Item Name="A5000_param.ctl" Type="VI" URL="../../st_voltmetr/controls/A5000_param.ctl"/>
+			<Item Name="st_voltmetr.vi" Type="VI" URL="../../st_voltmetr/st_voltmetr.vi"/>
+			<Item Name="MenuVolt.rtm" Type="Document" URL="../../st_voltmetr/MenuVolt.rtm"/>
+			<Item Name="OscCon (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/OscCon (SubVI).vi"/>
+			<Item Name="Open.vi" Type="VI" URL="../../st_voltmetr/subVIs/Open.vi"/>
+			<Item Name="PicoScope5000aPowerSource.vi" Type="VI" URL="../../st_voltmetr/subVIs/PicoScope5000a.llb/PicoScope5000aPowerSource.vi"/>
+			<Item Name="PicoScope5000aUnitInfo.vi" Type="VI" URL="../../st_voltmetr/subVIs/PicoScope5000a.llb/PicoScope5000aUnitInfo.vi"/>
+			<Item Name="Status.vi" Type="VI" URL="../../st_voltmetr/subVIs/Status.vi"/>
+			<Item Name="OscGen (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/OscGen (SubVI).vi"/>
+			<Item Name="PicoScope5000aAWG.vi" Type="VI" URL="../../st_voltmetr/subVIs/PicoScope5000a.llb/PicoScope5000aAWG.vi"/>
+			<Item Name="PicoErrorHandler.vi" Type="VI" URL="../../st_voltmetr/subVIs/PicoScope.llb/PicoErrorHandler.vi"/>
+			<Item Name="OscCapture (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/OscCapture (SubVI).vi"/>
+			<Item Name="Settings.vi" Type="VI" URL="../../st_voltmetr/subVIs/Settings.vi"/>
+			<Item Name="PicoScopeVoltsToAdc.vi" Type="VI" URL="../../st_voltmetr/subVIs/PicoScope.llb/PicoScopeVoltsToAdc.vi"/>
+			<Item Name="PicoScope5000aGetTimebase2.vi" Type="VI" URL="../../st_voltmetr/subVIs/PicoScope5000a.llb/PicoScope5000aGetTimebase2.vi"/>
+			<Item Name="PicoStatus.vi" Type="VI" URL="../../st_voltmetr/subVIs/PicoScope.llb/PicoStatus.vi"/>
+			<Item Name="GetBlock.vi" Type="VI" URL="../../st_voltmetr/subVIs/GetBlock.vi"/>
+			<Item Name="OscAutoDiap (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/OscAutoDiap (SubVI).vi"/>
+			<Item Name="OscDataToWfm (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/OscDataToWfm (SubVI).vi"/>
+			<Item Name="PicoScopeAdcToVolts.vi" Type="VI" URL="../../st_voltmetr/subVIs/PicoScope.llb/PicoScopeAdcToVolts.vi"/>
+			<Item Name="DotPoz (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/DotPoz (SubVI).vi"/>
+			<Item Name="DiapStr (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/DiapStr (SubVI).vi"/>
+			<Item Name="Meas (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/Meas (SubVI).vi"/>
+			<Item Name="DblToStr.vi" Type="VI" URL="../../st_voltmetr/subVIs/DblToStr.vi"/>
+			<Item Name="GUI_visable_ctr (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/GUI_visable_ctr (SubVI).vi"/>
+			<Item Name="About program (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/About program (SubVI).vi"/>
+			<Item Name="GetFileVersion.vi" Type="VI" URL="../../st_voltmetr/subVIs/GetFileVersion.vi"/>
+			<Item Name="GetFileVersion (ActiveX).vi" Type="VI" URL="../../st_voltmetr/subVIs/GetFileVersion (ActiveX).vi"/>
+			<Item Name="Title (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/Title (SubVI).vi"/>
+			<Item Name="GetRazdelitel(SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/GetRazdelitel(SubVI).vi"/>
+			<Item Name="GUI_ENABLE_ctr (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/GUI_ENABLE_ctr (SubVI).vi"/>
+			<Item Name="SaveVolt (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/SaveVolt (SubVI).vi"/>
+			<Item Name="1poputkapechat (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/1poputkapechat (SubVI).vi"/>
+			<Item Name="Dialog_about_program_v (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/Dialog_about_program_v (SubVI).vi"/>
+			<Item Name="DisableEnableControlVolt (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/DisableEnableControlVolt (SubVI).vi"/>
+			<Item Name="DeleteFunction (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/DeleteFunction (SubVI).vi"/>
+			<Item Name="Tbl_Delete (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/Tbl_Delete (SubVI).vi"/>
+			<Item Name="InteractWithScrollBar (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/InteractWithScrollBar (SubVI).vi"/>
+			<Item Name="AddFunction (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/AddFunction (SubVI).vi"/>
+			<Item Name="Zamena (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/Zamena (SubVI).vi"/>
+			<Item Name="IconNumDotPoz(SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/IconNumDotPoz(SubVI).vi"/>
+			<Item Name="Tbl_Add (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/Tbl_Add (SubVI).vi"/>
+			<Item Name="AddNumRow (SubVI).vi" Type="VI" URL="../../st_voltmetr/SaveEx/AddNumRow (SubVI).vi"/>
+			<Item Name="RemoveFunction (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/RemoveFunction (SubVI).vi"/>
+			<Item Name="Tbl_Remove (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/Tbl_Remove (SubVI).vi"/>
+			<Item Name="st_str Set Visable on Multiple Controls.vi" Type="VI" URL="../../st_voltmetr/subVIs/st_str Set Visable on Multiple Controls.vi"/>
+			<Item Name="CloseVi (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/CloseVi (SubVI).vi"/>
+			<Item Name="OpenAndRunVi (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/OpenAndRunVi (SubVI).vi"/>
+			<Item Name="Connecting(Sub VI).vi" Type="VI" URL="../subVIs/Connecting(Sub VI).vi"/>
+			<Item Name="OpenAndRunVi (SubVI) — with saw.vi" Type="VI" URL="../../st_voltmetr/subVIs/OpenAndRunVi (SubVI) — with saw.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Finite Measurement Application" Type="EXE">
@@ -573,7 +569,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Finite Measurement Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D87FF8EC-8353-4B89-B443-D7FDA706280C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{233114B2-C501-4429-AF5D-81177D421B75}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/st_str Main.vi</Property>
