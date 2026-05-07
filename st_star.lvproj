@@ -476,6 +476,10 @@
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
+				<Item Name="Generate Report Object Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Generate Report Object Reference.ctl"/>
+				<Item Name="Express Waveform Components.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Express Waveform Components.vi"/>
+				<Item Name="ex_GetAllExpressAttribs.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_GetAllExpressAttribs.vi"/>
+				<Item Name="Write GIF File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/gif.llb/Write GIF File.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
@@ -546,6 +550,14 @@
 			<Item Name="OpenAndRunVi (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/OpenAndRunVi (SubVI).vi"/>
 			<Item Name="Connecting(Sub VI).vi" Type="VI" URL="../subVIs/Connecting(Sub VI).vi"/>
 			<Item Name="OpenAndRunVi (SubVI) — with saw.vi" Type="VI" URL="../../st_voltmetr/subVIs/OpenAndRunVi (SubVI) — with saw.vi"/>
+			<Item Name="ControlSpec.ctl" Type="VI" URL="../../st_voltmetr/subVIs/ControlSpec.ctl"/>
+			<Item Name="PrintVolt (SubVI).vi" Type="VI" URL="../../st_voltmetr/subVIs/PrintVolt (SubVI).vi"/>
+			<Item Name="PicoScope5000aClose.vi" Type="VI" URL="../../st_voltmetr/subVIs/PicoScope5000aClose.vi"/>
+			<Item Name="PicoStatus2.vi" Type="VI" URL="../../st_voltmetr/subVIs/PicoStatus2.vi"/>
+			<Item Name="PicoErrorHandler2.vi" Type="VI" URL="../../st_voltmetr/subVIs/PicoErrorHandler2.vi"/>
+			<Item Name="PicoErrorString2.vi" Type="VI" URL="../../st_voltmetr/subVIs/PicoErrorString2.vi"/>
+			<Item Name="PICO_STATUS codes.vi" Type="VI" URL="../../st_voltmetr/subVIs/PICO_STATUS codes.vi"/>
+			<Item Name="DblToStr — ForAcquire.vi" Type="VI" URL="../../st_voltmetr/subVIs/DblToStr — ForAcquire.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Finite Measurement Application" Type="EXE">
@@ -569,7 +581,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Finite Measurement Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{233114B2-C501-4429-AF5D-81177D421B75}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{346B887A-0D15-4695-AEC8-273357FDD1DB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/st_str Main.vi</Property>
