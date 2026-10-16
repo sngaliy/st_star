@@ -3,7 +3,7 @@
 <Version>17.0</Version>
 <Cluster>
 <Name>User Configuration</Name>
-<NumElts>3</NumElts>
+<NumElts>4</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
 <NumElts>2</NumElts>
@@ -31,7 +31,284 @@
 <Choice>Replace</Choice>
 <Choice>Overlay</Choice>
 <Choice>Append</Choice>
-<Val>2</Val>
+<Val>0</Val>
 </EW>
+<Cluster>
+<Name>A5000_param</Name>
+<NumElts>15</NumElts>
+<Cluster>
+<Name>ChannelA</Name>
+<NumElts>4</NumElts>
+<Boolean>
+<Name>Enabled</Name>
+<Val>0</Val>
+</Boolean>
+<I16>
+<Name>Coupling</Name>
+<Val>1</Val>
+</I16>
+<U16>
+<Name>Range</Name>
+<Val>6</Val>
+</U16>
+<SGL>
+<Name>Analogue Offset</Name>
+<Val>0.00000</Val>
+</SGL>
+</Cluster>
+<Cluster>
+<Name>ChannelB</Name>
+<NumElts>4</NumElts>
+<Boolean>
+<Name>Enabled</Name>
+<Val>0</Val>
+</Boolean>
+<I16>
+<Name>Coupling</Name>
+<Val>1</Val>
+</I16>
+<U16>
+<Name>Range</Name>
+<Val>6</Val>
+</U16>
+<SGL>
+<Name>Analogue Offset</Name>
+<Val>0.00000</Val>
+</SGL>
+</Cluster>
+<Cluster>
+<Name>Trigger</Name>
+<NumElts>6</NumElts>
+<Boolean>
+<Name>Trigger Enabled</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>Trigger Source</Name>
+<Choice>Channel A</Choice>
+<Choice>Channel B</Choice>
+<Choice>Channel C</Choice>
+<Choice>Channel D</Choice>
+<Choice>Ext.</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>Trigger Threshold (volts)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Trigger Direction</Name>
+<Val>2</Val>
+</U16>
+<U32>
+<Name>Trigger Delay (samples)</Name>
+<Val>0</Val>
+</U32>
+<I16>
+<Name>Auto Trigger Time (ms)</Name>
+<Val>1000</Val>
+</I16>
+</Cluster>
+<I16>
+<Name>MaxADCvalue</Name>
+<Val>32767</Val>
+</I16>
+<I16>
+<Name>handle</Name>
+<Val>16384</Val>
+</I16>
+<Cluster>
+<Name>Acquisition</Name>
+<NumElts>5</NumElts>
+<I32>
+<Name>preTriggerSamples</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>postTriggerSamples</Name>
+<Val>1000</Val>
+</I32>
+<U32>
+<Name>timebase</Name>
+<Val>2</Val>
+</U32>
+<U32>
+<Name>Down-Sample Mode</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Down Sample Ratio</Name>
+<Val>1</Val>
+</U32>
+</Cluster>
+<Cluster>
+<Name>Device Info</Name>
+<NumElts>11</NumElts>
+<String>
+<Name>Driver Version</Name>
+<Val>2.1.4.789</Val>
+</String>
+<String>
+<Name>USB Version</Name>
+<Val>3.0</Val>
+</String>
+<String>
+<Name>Hardware</Name>
+<Val>1</Val>
+</String>
+<String>
+<Name>Variant</Name>
+<Val>5242D</Val>
+</String>
+<String>
+<Name>Batch and Serial</Name>
+<Val>12257/0055</Val>
+</String>
+<String>
+<Name>Cal Date</Name>
+<Val>12Oct25</Val>
+</String>
+<String>
+<Name>Kernel Version</Name>
+<Val>1.0</Val>
+</String>
+<String>
+<Name>Digital HW Version</Name>
+<Val>1</Val>
+</String>
+<String>
+<Name>Analogue HW Version</Name>
+<Val>1</Val>
+</String>
+<Boolean>
+<Name>MSO</Name>
+<Val>0</Val>
+</Boolean>
+<I16>
+<Name>Number of channels</Name>
+<Val>2</Val>
+</I16>
+</Cluster>
+<Cluster>
+<Name>Properties</Name>
+<NumElts>6</NumElts>
+<SGL>
+<Name>Sample Frequency</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Sample Rate</Name>
+<Val>0.00000</Val>
+</SGL>
+<I32>
+<Name>Max Samples Available</Name>
+<Val>0</Val>
+</I32>
+<U32>
+<Name>Number of Samples</Name>
+<Val>0</Val>
+</U32>
+<SGL>
+<Name>Total Capture Time (sec) </Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Max Total Capture Time Available (sec)</Name>
+<Val>0.00000</Val>
+</SGL>
+</Cluster>
+<I32>
+<Name>Resolution</Name>
+<Val>4</Val>
+</I32>
+<Boolean>
+<Name>EmulateV</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>General AWG Settings</Name>
+<NumElts>10</NumElts>
+<U32>
+<Name>Peak-to-Peak Voltage (microvolts)</Name>
+<Val>2000000</Val>
+</U32>
+<I32>
+<Name>Offset Voltage (microvolts)</Name>
+<Val>0</Val>
+</I32>
+<U32>
+<Name>Wave Type</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Sweep Type</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Shots</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Sweeps</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Trigger Type</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Trigger Source</Name>
+<Val>0</Val>
+</U32>
+<I16>
+<Name>Ext. Threshold (ADC count)</Name>
+<Val>0</Val>
+</I16>
+<U32>
+<Name>White Noise/PRBS</Name>
+<Val>0</Val>
+</U32>
+</Cluster>
+<Cluster>
+<Name>Standard Waveform Settings</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>Start Frequency</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Stop Frequency</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Increment</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Dwell Time (seconds)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Arbitrary Waveform Settings</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Arbirary waveform file path</Name>
+<Val></Val>
+</Path>
+<U32>
+<Name>Index Mode</Name>
+<Val>0</Val>
+</U32>
+</Cluster>
+<Boolean>
+<Name>AutoDiapChA</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>AutoDiapChB</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
 </Cluster>
 </LVData>
